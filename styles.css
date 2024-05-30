@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    text-align: center;
+    font-family: Tahoma;
+  }
+  form{
+    background-color: burlywood;
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    opacity: 0.7;
+  }
+  input {
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+    }
+  .input-element{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  select{
+    padding: 5px;
+      border: none;
+      border-radius: 5px;
+  }
+  input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+  }
+  label{
+    font-weight: bold;
+  }
+  button {
+      display: block;
+      width: 60%;
+      margin: 1em auto;
+      height: 2em;
+      font-size: 1.1rem;
+      background-color: lightgreen;
+      border-color: white;
+      min-width: 300px;
+  }
+  textarea {
+      background-color: white;
+      border: none;
+      color: #ffffff;
+      margin: 10px 0 0 0;
+      width: 100%;
+      min-height: 2em;
+  }
